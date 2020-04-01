@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="edtInformacion">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="The original version &#xa;was transmitted on Saturday nights,&#xa; however episodes are now also broadcast &#xa;on weekday evenings. While the weekend &#xa;version shows a more solemn environment &#xa;(with a top prize of 5,000,000 pesos,&#xa; about US$262,500), the weekday version &#xa;seems more informal and fun (with a top&#xa; prize of 1,000,000 pesos, about US$53,000).&#xa; H&#xe9;ctor Sandarti presents the show, &#xa;and he has also done the Spanish-language&#xa; American version (using the same title)&#xa; for Telemundo. "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="edtComo">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Preselecci&#xf3;n&#xa;Tanto en la versi&#xf3;n argentina, la salvadore&#xf1;a y en la chilena de Trato hecho se &#xa;realiza una pre-selecci&#xf3;n para escoger al participante final. &#xa;En Argentina y Chile la mec&#xe1;nica consiste en varias fases. &#xa;En la primera se divide al p&#xfa;blico&#xa;en 2 sectores. Se realizan preguntas de conocimientos varios&#xa; y el sector que obtenga el mayor puntaje pasa a la siguiente ronda.&#xa; Luego el sector ganador se divide en 5 sectores de 25 personas cada uno. &#xa;Se vuelve a realizar una serie de preguntas y el sector ganador pasa a la siguiente&#xa; trivia. Antes de que se hagan las preguntas se incorpora al sector ganador una &#xa;persona elegida al azar entre quienes hayan quedado relegados en las rondas &#xa;anteriores. Despu&#xe9;s de realizada la tercera ronda de preguntas, los 2 puntajes &#xa;m&#xe1;s altos se enfrentan en problemas matem&#xe1;ticos. Quien gane participar&#xe1; por el &#xa;premio m&#xe1;ximo, y las otras 25 personas que hayan llegado a la parte final de la &#xa;pre-selecci&#xf3;n tomar&#xe1;n un malet&#xed;n. &#xa;En la versi&#xf3;n salvadore&#xf1;a la mec&#xe1;nica de pre-selecci&#xf3;n es distinta, en el primer filtro, &#xa;el participante debe de descargar un formulario en la p&#xe1;gina web del programa, &#xa;luego de llenarlo (&#xfa;nicamente a mano), debe grabar un video de 5 minutos diciendo &#xa;por qu&#xe9; deben elegirlo y de presentar a las personas que deseen lo acompa&#xf1;en en&#xa; el foro. El siguiente filtro es una entrevista presencial con la producci&#xf3;n y si pasa&#xa; los dos filtros est&#xe1; listo para participar en futura fecha, en el programa elije un &#xa;malet&#xed;n y comienza el juego. &#xa;Cada vez que el concursante final elige un malet&#xed;n, quien lo posea puede adivinar &#xa;la cantidad que contiene. Si acierta se ganar&#xe1; una cierta cantidad de dinero. &#xa;Etapa de los maletines&#xa;El programa consiste en un n&#xfa;mero de maletines (generalmente 26) que representan &#xa;diversas cantidades de dinero. Sin saber a que cantidad corresponde cada malet&#xed;n,&#xa; el concursante escoge uno, el cual se supone contiene el premio m&#xe1;ximo. &#xa;Luego el participante va abriendo maletines uno por uno para saber el valor &#xa;que representaban. Mientras ocurre eso el concursante puede recibir ofertas &#xa;de la &quot;banca&quot;, la cual desea comprar su malet&#xed;n por el menor valor posible, &#xa;el cual depende de las cantidades que queden.&#xa; El concursante puede aceptar la oferta o seguir abriendo maletines. &#xa;Como ambos (el concursante y la banca) desconocen el valor de su malet&#xed;n, &#xa;puede que el concursante haga muy buen negocio al vender a un buen precio &#xa;un malet&#xed;n que puede contener cifras m&#xed;nimas ($1). Si opta por seguir abriendo &#xa;maletines y estos corresponden a cifras menores, aumentar&#xe1; el valor de la oferta&#xa; de la banca. &#xa;Hay solo dos rutas para que el concursante gane el premio mayor: &#xa;Elegir al comienzo el malet&#xed;n correcto y nunca aceptar una oferta de la banca.&#xa;Mantener la opci&#xf3;n del premio m&#xe1;ximo hasta que queden solo 2 maletines y&#xa;cambiarlo por el suyo."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="frmJuego">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="242" max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="210" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="holi"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txtSelleccion">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="13" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;Selecciona tu maletin"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="5">
+                  <Color PropertyName="color" blue="66" green="66" red="66" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="frmPrincipal"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="67" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="288" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Franklin Gothic Demi Cond" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Bienvenido A Deal or Not deal"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder bottom="3" left="3" right="3" top="3">
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </MatteColorBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                          <Component id="btnIniciar" min="-2" pref="101" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel2" pref="100" max="32767" attributes="0"/>
+                              <Component id="btnInformacion" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btncomo" min="-2" pref="116" max="-2" attributes="0"/>
+                              <Component id="edtJugador" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="191" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btncomo" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="btnInformacion" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="edtJugador" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                  <Component id="btnIniciar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JRadioButton" name="btnInformacion">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Informacion"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInformacionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="btncomo">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Como se juega?"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncomoActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIniciar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Iniciar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIniciarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ingresa tu nombre:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="edtJugador">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
